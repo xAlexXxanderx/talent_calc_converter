@@ -28,6 +28,7 @@ max_talents = {
     "warrior": [31,27,27],
     }
 
+wowhead_wotlk_link =  wowhead_wotlk_link.split("_")[0] #remove glyphs
 if check_string(wowhead_wotlk_link):
     player_class = print('Enter player_class: ', end='')
     player_class = input()
